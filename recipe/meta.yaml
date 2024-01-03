@@ -17,21 +17,25 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python >=3.7
   run:
-    - numpy >=1.14
-    - python >=3.5
+    - numpy >=1.23
+    - python >=3.7
 
 test:
   imports:
     - thucyd
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: "https://gitlab.com/thucyd-dev/thucyd"
   license: Apache-2.0
   license_family: "APACHE"
   license_file: LICENSE
-  summary: "Scientific library for realtime signal processing and eigenanalysis of evolving systems."
+  summary: Reference library for advanced eigenanalysis.
   dev_url: https://gitlab.com/thucyd-dev/thucyd
 
 extra:
