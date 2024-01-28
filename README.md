@@ -7,7 +7,7 @@ Home: https://gitlab.com/thucyd-dev/thucyd
 
 Package license: Apache-2.0
 
-Summary: Scientific library for realtime signal processing and eigenanalysis of evolving systems.
+Summary: Reference library for advanced eigenanalysis.
 
 Development: https://gitlab.com/thucyd-dev/thucyd
 
