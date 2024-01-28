@@ -1,5 +1,5 @@
 {% set name = "thucyd" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: "312a56594d6c3f75e2b4afe97524ec46dfe759e61691cb101316a4dac12d490c"
+  sha256: "29fdb22cba310d611ffb4441cb58e97c3c847877cfccd56721ad99f7abf83376"
 
 build:
   number: 0
